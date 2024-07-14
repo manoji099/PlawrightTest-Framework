@@ -17,3 +17,10 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+ 
+
+ // npx playwright test
+ // npx playwright test example.spec.js
+ // npx playwright test example.spec.js --headed 
+ // npx playwright test example.spec.js --headed --project chromium
+ //

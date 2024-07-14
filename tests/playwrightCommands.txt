@@ -1,0 +1,8 @@
+npm init playwright@latest
+npx playwright test
+npx playwright test --headed = Run tests in headed mode
+npx playwright test --project webkit = run test in specific UI
+npx playwright test landing-page.spec.ts  = Run specific tests
+npx playwright test --debug = debug test using playwright
+npx playwright test --last-failed
+npx playwright show-report  = Test reports

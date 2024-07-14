@@ -9,3 +9,8 @@ test.beforeEach(async({browser})=>{
     (await page).locator()
 
 })
+
+
+// npx playwright test -g "add a todo item"  - o run a test with a specific title, use the -g flag followed by the title of the test.
+
+// 
